@@ -1,19 +1,20 @@
-### FLOW CONTROL
+### FLOW CONTROL [FN1]
     function OnEvent(event, arg [, family]) | end
     if condition then | doThat | end
     if not condition then doThat | end
     for iter = 0, 10 do | doThat | end
 
-### NUMBER: MOUSE_BUTTON
-    1|LButton
-    2|MButton
-    3|RButton
-    4|XButton1
-    5|XButton2
-
-### FUNCTIONS
+### MOUSE BUTTONS INTEGER DESIGATIONS [FN2]
+<div class="text-orange mb-2">
+    1 | LButton
+    2 | MButton
+    3 | RButton
+    4 | XButton1
+    5 | XButton2
+</div>
+### MISC FUNCTIONS
     OnEvent(event, arg [, family]);
-    EnablePrimaryMouseButtonEvents();
+    EnablePrimaryMouseButtonEvents(true|false); -- true|false or 1|0
     PlayMacro("my macro");
 
 ### MOVE MOUSE CURSOR/WHEEL
@@ -79,24 +80,31 @@
       if (event == "PROFILE_ACTIVATED") then
         -- profile has been activated
       end
+
       if (event == "PROFILE_DEACTIVATED") then
         -- profile has been deactivated
       end
+
       if (event == "G_PRESSED" and arg == 1) then
         -- G1 has been pressed
       end
+
       if (event == "G_RELEASED" and arg == 1) then
         -- G1 has been released
       end
+
       if (event == "M_PRESSED" and arg == 1) then
         -- M1 has been pressed
       end
+
       if (event == "M_RELEASED" and arg == 1) then
         -- M1 has been released
       end
+
       if (event == "MOUSE_BUTTON_PRESSED" and arg == 6) then
         -- Mouse Button 6 has been pressed
       End
+
       if (event == "MOUSE_BUTTON_RELEASED" and arg == 6) then
         -- Mouse Button 6 has been released
       end
@@ -212,8 +220,8 @@ math.sqrt
 math.tan
 math.tanh
 
-═══════════════════════════════════════════════════════════════════
+### FOOTNOTES
 
-NOTE_1:
-    -- Left Mouse Button (1) is not reported by default.
-    -- Use ‘EnablePrimaryMouseButtonEvents’ to override this.
+**[FN1]**
+    LButton (1) not reported by default. Use ‘EnablePrimaryMouseButtonEvents(1)’ to override.<p>
+**[FN2]
