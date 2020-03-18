@@ -249,15 +249,9 @@ end
 |<ul>table.concat<br>table.inserttable.maxn</ul>|<ul>table.remove<br>table.sort</ul>|
 <p>
 
-
-
 |Math Functions| <!-- -->    | <!-- -->    |
 |-------------|-------------|-------------|
 |<ul>math.abs<br>math.acos<br>math.asin<br>math.atan<br>math.atan2<br>math.ceil<br>math.cos<br>math.deg<br>math.exp<br>math.floor<br></ul>|<ul>math.fmod<br>math.frexp<br>math.huge<br>math.ldexp<br>math.log<br>math.log10<br>math.max<br>math.min<br>math.modf<br>math.pi<br></ul>|<ul>math.pow<br>math.rad<br>math.random<br>math.randomseed<br>math.sin<br>math.sinh<br>math.sqrt<br>math.tan<br>math.tanh<br><br></ul>
-
-
-
-
 
 ### FOOTNOTES
 | <!-- -->    | <!-- -->    |
