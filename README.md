@@ -1,4 +1,64 @@
-### FLOW CONTROL [FN1]
+### FUNCTIONS LISTING
+```lua
+  AbortMacro()
+  ClearLog()
+  EnablePrimaryMouseButtonEvent()
+  OnEvent()
+  GetDate()
+  GetKeyState()
+  GetMKeyState()
+  GetMousePosition()
+  GetRunningTime()
+  IsKeyLockOn()
+  IsModifierPressed()
+  IsMouseButtonPressed()
+  MoveMouseRelative()
+  MoveMouseTo()
+  MoveMouseToVirtual()
+  MoveMouseWheel()
+  OnEvent()
+  OutputDebugMessage()
+  OutputLCDMessage()
+  OutputLogMessage()
+  PlayMacro()
+  PressAndReleaseKey()
+  PressAndReleaseMouseButton()
+  PressKey()
+  PressMouseButton()
+  ReleaseKey()
+  ReleaseMouseButton()
+  SetBacklightColor(
+  SetMKeyState()
+  SetMouseDPITable()
+  SetMouseDPITableIndex()
+  Sleep()
+```
+### EVENTS
+
+    “MOUSE_BUTTON_PRESSED”      1|2|3|4|5|6   LB|MB|RB|XB1|XB2
+    “MOUSE_BUTTON_RELEASED”     1|2|3|4|5|6   LB|MB|RB|XB1|XB2
+    "G_PRESSED"|"G_RELEASED"    1|2|3…18      G1|G2|G3…G18
+    "M_PRESSED"|"M_RELEASED"    1|2|3         M1|M2|M3
+    "PROFILE_ACTIVATED"         none          none
+    "PROFILE_DEACTIVATED"       none          none
+
+```lua
+    ARG:MOUSE ==> 1:LB | 2:MB | 3:RB | 4:XB1 | 5:XB2
+```
+
+### EVENT FLOW CONTROL
+```lua
+if (event == "PROFILE_ACTIVATED") then end
+if (event == "PROFILE_DEACTIVATED") then end
+if (event == "G_PRESSED" and arg == 1) then end
+if (event == "G_RELEASED" and arg == 1) then end
+if (event == "M_PRESSED" and arg == 1) then end
+if (event == "M_RELEASED" and arg == 1) then end
+if (event == "MOUSE_BUTTON_PRESSED" and arg == 6) then end
+if (event == "MOUSE_BUTTON_RELEASED" and arg == 6) then end
+```
+
+### BASIC FLOW CONTROL [FN1]
 ```lua
 function OnEvent(event, arg [, family])
   doStuff
@@ -39,7 +99,6 @@ end
 * `MoveMouseTo(`65535, 65535`)`;   -- mouse to lower right corner
 * `MoveMouseRelative(`0, 0`)`;     -- move [dx, dy] relative to current position
 * `MoveMouseToVirtual(`0, 0`)`;   -- mouse to absolute position on multi-monitor layout
-
 
 ### SET STATE
 ```lua
@@ -89,14 +148,6 @@ end
     PressAndReleaseKey(1, 2, 4, ...)
     PressKey(1, 2, 3 ...)
 ```
-### EVENTS
-
-    “MOUSE_BUTTON_PRESSED”      1|2|3|4|5|6   LB|MB|RB|XB1|XB2
-    “MOUSE_BUTTON_RELEASED”     1|2|3|4|5|6   LB|MB|RB|XB1|XB2
-    "G_PRESSED"|"G_RELEASED"    1|2|3…18      G1|G2|G3…G18
-    "M_PRESSED"|"M_RELEASED"    1|2|3         M1|M2|M3
-    "PROFILE_ACTIVATED"         none          none
-    "PROFILE_DEACTIVATED"       none          none
 
 ### BOOLEAN
 ```lua
