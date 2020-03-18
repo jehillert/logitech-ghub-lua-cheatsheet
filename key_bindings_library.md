@@ -1,11 +1,9 @@
 ## LUA-LOGITECH KEYBINDINGS AND SCRIPT COLLECTION
 
-### THINGS TO NOTE
-_[1] The scripts are basic because my Lua skills are basic.  I am posting them because I there seems to be a complete lack of basic bindings and scripts online.  Take'em or leave'em.  Either way, they get the job done._
+### NOTE
+_[1] The scripts are basic because my Lua skills are basic.  I am posting them because I there seems to be a complete lack of basic bindings and scripts online.  _
 
-_[2] '███' and 'doSomething()' are placeholders for user input.  For the former, substitute in any arguments that the Logitech API function will except. For the latter, execute any valid output functionality_
-
-_[3] These scripts were only validated for a Logitech G903 Light Speed mouse. They may not work on other devices._
+_[2] These scripts were only validated for a Logitech G903 Light Speed mouse. They may not work on other devices._
 
 ### BINDINGS & SCRIPTS
 **RIGHT_CLICK + SOME_KEY ==> SOME_ACTION**
