@@ -7,21 +7,14 @@ pause|printscreen  scrolllock|capslock|numlock
 ```
 ```
 quote|semicolon|slash  comma|tilde|period
-```
-```
 lbracket|rbracket  backslash|non_us_slash
-```
-```
 up|down  left|right home|end  pagedown|pageup
-```
-```
 lgui|rgui  appkey
 ```
 ----------------------------------------------
 ```
 numenter|numperiod|numplus|numminus|numslash
 ```
-----------------------------------------------
 ```
 'num0'  'num1'  'num2'  'num3'  'num4'
 'num5'  'num6'  'num7'  'num8'  'num9'
