@@ -1,7 +1,7 @@
 ## LUA-LOGITECH KEYBINDINGS AND SCRIPT COLLECTION
 
 ### NOTE
-_[1] The scripts are basic because my Lua skills are basic.  I am posting them because I there seems to be a complete lack of basic bindings and scripts online.  _
+_[1] The scripts are basic because my Lua skills are basic.  I am posting them because I there seems to be a complete lack of basic bindings and scripts online._
 
 _[2] These scripts were only validated for a Logitech G903 Light Speed mouse. They may not work on other devices._
 
