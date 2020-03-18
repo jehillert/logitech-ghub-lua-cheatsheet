@@ -1,6 +1,5 @@
 ### KEYNAME ENUMERATION
 
-----------------------------------------------
 insert|delete  enter|escape
 minus|equal backspace|spacebar|tab
 lalt|ralt  lctrl|rctrl  lshift|rshift
