@@ -1,20 +1,28 @@
 ### KEYNAME ENUMERATION
 ```
-insert delete enter escape
-minus equal backspace spacebar tab
-
+minus/equal
+enter/escape
+insert/ delete
 pause/printscreen
+backspace/spacebar/tab
 scrolllock/capslock/numlock
-
-lalt/ralt
-lctrl/rctrl
+```
+```
+appkey
+up/down
+home/end
+lgui/rgui
+left/right
+pagedown/pageup
+lbracket/rbracket
+comma/tilde/period
+quote/semicolon/slash
+backslash/non_us_slash
+```
+```
 lshift/rshift
-```
-```
-quote|semicolon|slash  comma|tilde|period
-lbracket|rbracket  backslash|non_us_slash
-up|down  left|right home|end  pagedown|pageup
-lgui|rgui  appkey
+lctrl/rctrl
+lalt/ralt
 ```
 ----------------------------------------------
 ```
