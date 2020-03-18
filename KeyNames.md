@@ -1,9 +1,14 @@
 ### KEYNAME ENUMERATION
 ```
-insert|delete  enter|escape
-minus|equal backspace|spacebar|tab
-lalt|ralt  lctrl|rctrl  lshift|rshift
-pause|printscreen  scrolllock|capslock|numlock
+insert delete enter escape
+minus equal backspace spacebar tab
+
+pause/printscreen
+scrolllock/capslock/numlock
+
+lalt/ralt
+lctrl/rctrl
+lshift/rshift
 ```
 ```
 quote|semicolon|slash  comma|tilde|period
