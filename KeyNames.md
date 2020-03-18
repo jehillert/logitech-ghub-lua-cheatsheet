@@ -5,6 +5,18 @@ minus|equal backspace|spacebar|tab
 lalt|ralt  lctrl|rctrl  lshift|rshift
 pause|printscreen  scrolllock|capslock|numlock
 ```
+```
+quote|semicolon|slash  comma|tilde|period
+```
+```
+lbracket|rbracket  backslash|non_us_slash
+```
+```
+up|down  left|right home|end  pagedown|pageup
+```
+```
+lgui|rgui  appkey
+```
 ----------------------------------------------
 ```
 numenter|numperiod|numplus|numminus|numslash
@@ -32,20 +44,4 @@ numenter|numperiod|numplus|numminus|numslash
 ```
 '1'  '2'  '3'  '4'  '5'
 '6'  '7'  '8'  '9'  '0'
-```
-----------------------------------------------
-```
-quote|semicolon|slash  comma|tilde|period
-```
-----------------------------------------------
-```
-lbracket|rbracket  backslash|non_us_slash
-```
-----------------------------------------------
-```
-up|down  left|right home|end  pagedown|pageup
-```
-----------------------------------------------
-```
-lgui|rgui  appkey
 ```
