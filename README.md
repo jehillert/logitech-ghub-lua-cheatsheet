@@ -238,37 +238,6 @@ end
      end
    end
 ```
-## KeyNames
----
-
-&emsp;&emsp;escape&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pause&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;tilde<br>
-&emsp;&emsp;printscreen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;scrolllock&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;minus<br>
-&emsp;&emsp;equal&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;backspace&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tab<br>
-
----
-&emsp;&emsp;numenter&emsp;&emsp;&nbsp;&nbsp;numperiod<br>
-&emsp;&emsp;numplus&emsp;&emsp;&emsp;numminus<br>
-
----
-&nbsp;&emsp;&emsp;num1&emsp;&emsp;&emsp;&emsp;num2&emsp;&emsp;&emsp;&emsp;num3<br>
-&nbsp;&emsp;&emsp;num4&emsp;&emsp;&emsp;&emsp;num5&emsp;&emsp;&emsp;&emsp;num6 <br>
-&nbsp;&emsp;&emsp;num7&emsp;&emsp;&emsp;&emsp;num8&emsp;&emsp;&emsp;&emsp;num<br>
-&nbsp;&emsp;&emsp;num0 <br>
-
-
----
-&nbsp;&emsp;&emsp;f1&emsp;&emsp;&nbsp;f2&emsp;&emsp;&nbsp;&nbsp;&nbsp;f3&emsp;&emsp;&nbsp;&nbsp;f4&emsp;&emsp;&nbsp;&nbsp;f5&emsp;&emsp;&nbsp;&nbsp;f6&emsp;&emsp;<br>
-&nbsp;&emsp;&emsp;f7&emsp;&emsp;&nbsp;f8&emsp;&emsp;&nbsp;&nbsp;&nbsp;f9&emsp;&emsp;&nbsp;&nbsp;f10&emsp;&emsp;f11&emsp;&emsp;f12&emsp;&emsp;<br>
-&nbsp;&emsp;&emsp;f13&emsp;&emsp;f14&emsp;&emsp;f15&emsp;&emsp;f16&emsp;&emsp;f17&emsp;&emsp;f18<br>
-&nbsp;&emsp;&emsp;f19&emsp;&emsp;f20&emsp;&emsp;f21&emsp;&emsp;f22&emsp;&emsp;f23&emsp;&emsp;f24<br>
-
----
-&emsp;&emsp;1&emsp;2&emsp;3&emsp;4&emsp;5&emsp;6&emsp;7&emsp;8&emsp;9&emsp;0
-
----
-&emsp;&emsp;q&emsp;w&emsp;e&emsp;r&emsp;t&emsp;y
-
-
 
 |String Functions|<!-- -->|
 |-------------|-------------|
