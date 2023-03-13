@@ -48,6 +48,10 @@ I see I have some stars on here, and that is great.  But I did not put nearly en
     ARG:MOUSE ==> 1:LB | 2:MB | 3:RB | 4:XB1 | 5:XB2
 ```
 
+#### G502 HERO (Mouse)
+    “MOUSE_BUTTON_PRESSED”      1|2|3|4|5|6…11   LB|RB|MB|XB1(G4)|XB2(G5)|DPI(G6)|G7|G8|LT(G9)|RT(G10)|G11
+    “MOUSE_BUTTON_RELEASED”     1|2|3|4|5|6…11   LB|RB|MB|XB1(G4)|XB2(G5)|DPI(G6)|G7|G8|LT(G9)|RT(G10)|G11
+
 ### EVENT FLOW CONTROL
 ```lua
 if (event == "PROFILE_ACTIVATED") then end
@@ -254,6 +258,10 @@ end
 |Math Functions| <!-- -->    | <!-- -->    |
 |-------------|-------------|-------------|
 |<ul>math.abs<br>math.acos<br>math.asin<br>math.atan<br>math.atan2<br>math.ceil<br>math.cos<br>math.deg<br>math.exp<br>math.floor<br></ul>|<ul>math.fmod<br>math.frexp<br>math.huge<br>math.ldexp<br>math.log<br>math.log10<br>math.max<br>math.min<br>math.modf<br>math.pi<br></ul>|<ul>math.pow<br>math.rad<br>math.random<br>math.randomseed<br>math.sin<br>math.sinh<br>math.sqrt<br>math.tan<br>math.tanh<br><br></ul>
+
+### REFERENCES
+- [G502 Hero](https://www.logitech.com/assets/65517/g502-hero.pdf)
+- Logitech LUA Guide (G-seriesLuaAPI.pdf) (Can be found via `Scripting interface > Help > Scripting API`)
 
 ### FOOTNOTES
 | <!-- -->    | <!-- -->    |
